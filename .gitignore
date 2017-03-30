@@ -1,0 +1,23 @@
+.vagrant
+Berksfile.lock
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+
+# Bundler
+Gemfile.lock
+bin/*
+.bundle/*
+
+.kitchen/
+.kitchen.local.yml
+
+# Mozilla .cache and  .credentials-usfornax
+.cache/**
+RSYNC_POWER_OUTAGE/mhuston/.credentials-usfornax
+RSYNC_POWER_OUTAGE/mhuston/.viminfo
+RSYNC_POWER_OUTAGE/mhuston/.bash_history
+RSYNC_POWER_OUTAGE/mhuston/.vim/**
