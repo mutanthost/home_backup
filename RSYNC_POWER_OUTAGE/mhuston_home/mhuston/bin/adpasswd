@@ -1,0 +1,40 @@
+#!/bin/bash
+
+if [[ $# != 0 ]]; then
+  /usr/bin/adpasswd $@
+  exit
+fi
+
+export target_dir="$(readlink -f ~)"
+export target_settings_dir="${target_dir}/.local/share/dev-env"
+export eim_mount_point='/share'
+export dropbox_aur_mount_point='/mnt/dropbox-aur'
+
+read -s -p "(current) password: " cur_pass && echo ""
+read -s -p "Enter new password: " new_pass && echo ""
+read -s -p "Confirm new password: " new_pass_r && echo ""
+
+if [[ "${new_pass}" != "${new_pass_r}" ]]; then
+  echo "Error: passwords do not match"
+  exit 19
+fi
+
+if ! /usr/bin/adpasswd -o "${cur_pass}" -n "${new_pass}"; then
+  exit $?
+fi
+
+echo "usfornax_password='${new_pass}'" > ${target_settings_dir}/.credentials-usfornax
+echo "username=usfornax/${USER}" > ${target_dir}/.credentials-usfornax
+echo "password=${new_pass}" >> ${target_dir}/.credentials-usfornax
+
+remount() {
+  mount_point=$1
+
+  until [[ $? != 0 ]]; do
+    sudo umount ${mount_point} 2> /dev/null
+  done
+  sudo mount ${mount_point}
+}
+
+remount ${eim_mount_point}
+remount ${dropbox_aur_mount_point}

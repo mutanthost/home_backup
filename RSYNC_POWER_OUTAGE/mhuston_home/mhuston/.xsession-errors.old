@@ -1,0 +1,43 @@
+GNOME_KEYRING_SOCKET=/tmp/keyring-5RoXGG/socket
+SSH_AUTH_SOCK=/tmp/keyring-5RoXGG/socket.ssh
+Failed to play sound: File or data not found
+
+(polkit-gnome-authentication-agent-1:3070): GLib-GObject-WARNING **: cannot register existing type `_PolkitError'
+
+(polkit-gnome-authentication-agent-1:3070): GLib-CRITICAL **: g_once_init_leave: assertion `initialization_value != 0' failed
+** Message: applet now removed from the notification area
+
+** (nm-applet:3067): WARNING **: get_all_cb: couldn't retrieve system settings properties: (2) The name org.freedesktop.NetworkManagerSystemSettings was not provided by any .service files.
+(null):  Warning no default label for /home/mhuston/.gvfs
+
+** (nm-applet:3067): WARNING **: fetch_connections_done: error fetching system connections: (2) The name org.freedesktop.NetworkManagerSystemSettings was not provided by any .service files.
+Initializing nautilus-gdu extension
+** Message: applet now embedded in the notification area
+** Message: applet now removed from the notification area
+Initializing nautilus-open-terminal extension
+
+(evolution-alarm-notify:3062): evolution-alarm-notify-WARNING **: alarm.c:253: Requested removal of nonexistent alarm!
+
+(evolution-alarm-notify:3062): evolution-alarm-notify-WARNING **: alarm.c:253: Requested removal of nonexistent alarm!
+
+(evolution-alarm-notify:3062): evolution-alarm-notify-WARNING **: alarm.c:253: Requested removal of nonexistent alarm!
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3800003 (Virtual Ma)
+Window manager warning: meta_window_activate called by a pager with a 0 timestamp; the pager needs to be fixed.
+(null) get context on /home/mhuston/.gitconfig.lock failed: 'No such file or directory'
+(null) get context on /home/mhuston/.gitconfig.lock failed: 'No such file or directory'
+
+(polkit-gnome-authentication-agent-1:3070): polkit-gnome-1-WARNING **: Error enumerating temporary authorizations: Remote Exception invoking org.freedesktop.PolicyKit1.Authority.EnumerateTemporaryAuthorizations() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.PolicyKit1.Error.Failed: Cannot determine session the caller is in
+gnome-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+** (gnome-settings-daemon:2950): WARNING **: Connection failed, reconnecting...
+gnome-settings-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+Window manager warning: Fatal IO error 11 (Resource temporarily unavailable) on display ':0'.
+** Message: Got disconnected from the session message bus; retrying to reconnect every 10 seconds
+** Message: <info>  disconnected by the session bus.
+
+win4user.bin: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+abrt-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gdu-notification-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gnome-screensaver: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+nm-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+polkit-gnome-authentication-agent-1: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.

@@ -1,10 +1,10 @@
 name 'mhuston_home'
-maintainer 'Raytheon'
-maintainer_email 'matthew.huston-nr@raytheon.com'
-license 'all_rights'
+maintainer 'MJH'
+maintainer_email 'matthewhuston@gmail.com'
+license 'GNU 2017 All rights reserved, all wrongs reversed.'
 description 'Installs/Configures mhuston_home'
 long_description 'Installs/Configures mhuston_home'
-version '0.1.0'
+version '0.1.1'
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link
