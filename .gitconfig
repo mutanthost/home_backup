@@ -14,5 +14,5 @@ cmd = vim -f -c \"Gsdiff :1 | Gvdiff\" \"$MERGED\"
 [diff]
 	tool = gvimdiff
 [user]
-	name = Matthew J. Huston
-	email = matthew.huston-nr@raytheon.com
+	name = Matt Huston
+	email = matthewhuston@gmail.com

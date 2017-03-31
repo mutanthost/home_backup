@@ -8,18 +8,18 @@ Berksfile.lock
 *.un~
 
 # Bundler
-Gemfile.lock
-bin/*
-.bundle/*
+mhuston/Gemfile.lock
+mhuston/bin/*
+mhuston/.bundle/*
 
-.kitchen/
-.kitchen.local.yml
+mhuston/.kitchen/
+mhuston/.kitchen.local.yml
 
 # Mozilla .cache and  .credentials-usfornax
-.cache/**
-RSYNC_home_backup/.credentials-usfornax
-RSYNC_home_backup/.viminfo
-RSYNC_home_backup/.bash_history
-RSYNC_home_backup/.vim/**
-RSYNC_home_backup/.delivery/**
-.delivery/**
+mhuston/.cache/**
+mhuston/RSYNC_home_backup/.credentials-usfornax
+mhuston/RSYNC_home_backup/.viminfo
+mhuston/RSYNC_home_backup/.bash_history
+mhuston/RSYNC_home_backup/.vim/**
+mhuston/RSYNC_home_backup/.delivery/**
+mhuston/.delivery/**
