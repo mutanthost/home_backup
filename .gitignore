@@ -1,0 +1,29 @@
+.vagrant
+Berksfile.lock
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.cer
+*.crt
+*.pem
+*.un~
+# Bundler
+mhuston/Gemfile.lock
+mhuston/bin/*
+mhuston/.bundle/*
+mhuston/trusted_certs/*
+
+mhuston/.kitchen/
+mhuston/.kitchen.local.yml
+
+# Mozilla .cache and  .credentials-usfornax
+cache/**
+mhuston/RSYNC_home_backup/.credentials-usfornax
+mhuston/RSYNC_home_backup/.viminfo
+mhuston/RSYNC_home_backup/.bash_history
+mhuston/RSYNC_home_backup/.vim/*
+mhuston/RSYNC_home_backup/.delivery/*
+.delivery/*
+
