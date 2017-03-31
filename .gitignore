@@ -17,9 +17,9 @@ bin/*
 
 # Mozilla .cache and  .credentials-usfornax
 .cache/**
-RSYNC_POWER_OUTAGE/mhuston/.credentials-usfornax
-RSYNC_POWER_OUTAGE/mhuston/.viminfo
-RSYNC_POWER_OUTAGE/mhuston/.bash_history
-RSYNC_POWER_OUTAGE/mhuston/.vim/**
-RSYNC_POWER_OUTAGE/mhuston/.delivery/**
+RSYNC_home_backup/.credentials-usfornax
+RSYNC_home_backup/.viminfo
+RSYNC_home_backup/.bash_history
+RSYNC_home_backup/.vim/**
+RSYNC_home_backup/.delivery/**
 .delivery/**
