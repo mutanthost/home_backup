@@ -1,9 +1,0 @@
-#!/bin/bash
-
-if [[ -x /usr/bin/dircolors && -t 1 ]]; then
-  test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-  ls -lah --color=always "$@" | less -R --quit-if-one-screen --no-init
-else
-  ls -lah "$@" | less --quit-if-one-screen --no-init
-fi
-
