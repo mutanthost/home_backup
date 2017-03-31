@@ -20,7 +20,8 @@ Prerequisites
 
 
 
-This is presuming your are using an IFDC RHEL VDI
+This is presuming your are using a VM and have set up .gitignore for
+exclusions, and your $storage et cetera
 
 
 
